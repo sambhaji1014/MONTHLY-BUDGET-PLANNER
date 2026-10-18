@@ -1,0 +1,1504 @@
+{
+  "users": [
+    {
+      "id": "usr_sambhaji_jadhav",
+      "email": "sambhaji.jadhav@example.com",
+      "name": "Sambhaji Jadhav",
+      "phone": "+91 98230 12345",
+      "dateOfBirth": "1992-06-15",
+      "password": "Password@123",
+      "preferences": {
+        "currency": "INR",
+        "theme": "luxury",
+        "notificationAlerts": true,
+        "riskTolerance": "growth",
+        "monthlySavingsTargetPercent": 25
+      },
+      "isNewUser": false,
+      "financialSnapshot": {
+        "monthlyIncome": 120000,
+        "totalExpenses": 87000,
+        "savingsRate": 27,
+        "categoriesCount": 11,
+        "transactionsCount": 10,
+        "lastSavedAt": "2026-10-18T09:30:00.000Z"
+      },
+      "createdAt": "2026-01-10T08:00:00.000Z",
+      "lastLoginAt": "2026-10-18T09:30:00.000Z"
+    },
+    {
+      "id": "usr_jadhav_wealthwise",
+      "email": "jadhav@wealthwise.com",
+      "name": "Sambhaji Jadhav",
+      "phone": "+91 98230 12345",
+      "dateOfBirth": "1992-06-15",
+      "password": "Password@123",
+      "preferences": {
+        "currency": "INR",
+        "theme": "luxury",
+        "notificationAlerts": true,
+        "riskTolerance": "growth",
+        "monthlySavingsTargetPercent": 30
+      },
+      "isNewUser": false,
+      "financialSnapshot": {
+        "monthlyIncome": 120000,
+        "totalExpenses": 87000,
+        "savingsRate": 27,
+        "categoriesCount": 11,
+        "transactionsCount": 10,
+        "lastSavedAt": "2026-10-17T14:20:00.000Z"
+      },
+      "createdAt": "2026-02-01T10:00:00.000Z",
+      "lastLoginAt": "2026-10-17T14:20:00.000Z"
+    },
+    {
+      "id": "usr_priya_sharma",
+      "email": "priya.sharma@example.com",
+      "name": "Priya Sharma",
+      "phone": "+91 98765 43210",
+      "dateOfBirth": "1995-11-20",
+      "password": "Password@123",
+      "preferences": {
+        "currency": "INR",
+        "theme": "luxury",
+        "notificationAlerts": true,
+        "riskTolerance": "balanced",
+        "monthlySavingsTargetPercent": 20
+      },
+      "isNewUser": false,
+      "financialSnapshot": {
+        "monthlyIncome": 85000,
+        "totalExpenses": 62000,
+        "savingsRate": 27,
+        "categoriesCount": 8,
+        "transactionsCount": 6,
+        "lastSavedAt": "2026-10-16T11:00:00.000Z"
+      },
+      "createdAt": "2026-03-15T09:00:00.000Z",
+      "lastLoginAt": "2026-10-16T11:00:00.000Z"
+    },
+    {
+      "id": "browser_test_1792332230783@wealthwise.io",
+      "email": "browser_test_1792332230783@wealthwise.io",
+      "name": "browser_test_1792332230783",
+      "preferences": {
+        "currency": "INR",
+        "theme": "luxury",
+        "riskTolerance": "growth",
+        "monthlySavingsTargetPercent": 25,
+        "monthlyIncome": 175000
+      },
+      "isNewUser": false,
+      "createdAt": "2026-10-18T14:03:50.882Z",
+      "lastLoginAt": "2026-10-18T14:03:50.882Z"
+    },
+    {
+      "id": "usr_1792332250916",
+      "email": "test_user_1792332250713@wealthwise.io",
+      "name": "Aarav Patel",
+      "phone": "+91 98765 43210",
+      "password": "$2b$12$UCnuCS8c.bJ0OwjN5duldOw/TyMN0GgRVPFI5f.tg.hrACNyNtRV2",
+      "preferences": {
+        "currency": "INR",
+        "theme": "luxury",
+        "notificationAlerts": true,
+        "riskTolerance": "growth",
+        "monthlySavingsTargetPercent": 25,
+        "monthlyIncome": 120000
+      },
+      "isNewUser": false,
+      "createdAt": "2026-10-18T14:04:10.916Z",
+      "lastLoginAt": "2026-10-18T14:04:10.916Z",
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ1c3JfMTc5MjMzMjI1MDkxNiIsImVtYWlsIjoidGVzdF91c2VyXzE3OTIzMzIyNTA3MTNAd2VhbHRod2lzZS5pbyIsIm5hbWUiOiJBYXJhdiBQYXRlbCIsImlhdCI6MTc5MjMzMjI1MSwiZXhwIjoxNzkyOTM3MDUxfQ.54gzpF3Sggrq8Ooiw0OAl_Q9TczWorIeiNCKDPVmBl0"
+    },
+    {
+      "id": "swayamkatkar@gmail.com",
+      "email": "swayamkatkar@gmail.com",
+      "name": "Member",
+      "phone": "+91 98000 00000",
+      "dateOfBirth": "1995-01-01",
+      "preferences": {
+        "currency": "INR",
+        "theme": "luxury",
+        "riskTolerance": "growth",
+        "monthlySavingsTargetPercent": 25,
+        "monthlyIncome": 120000
+      },
+      "isNewUser": false,
+      "createdAt": "2026-10-18T14:05:07.788Z",
+      "lastLoginAt": "2026-10-18T14:05:07.788Z"
+    },
+    {
+      "id": "usr_1792332438747",
+      "email": "suyogfarke@gmail.com",
+      "name": "Suyog Farke",
+      "password": "$2b$12$uQWL/LhXqVCsBFvKs9fzDOZAWFsc0gqCjy7n5qcX5a5XX56tcb5de",
+      "preferences": {
+        "currency": "INR",
+        "theme": "luxury",
+        "notificationAlerts": true,
+        "riskTolerance": "growth",
+        "monthlySavingsTargetPercent": 20,
+        "monthlyIncome": 150017,
+        "primarySavingsGoal": "Wealth Preservation & Growth",
+        "allocationStyle": "growth"
+      },
+      "isNewUser": false,
+      "createdAt": "2026-10-18T14:07:18.747Z",
+      "lastLoginAt": "2026-10-18T14:07:18.747Z",
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ1c3JfMTc5MjMzMjQzODc0NyIsImVtYWlsIjoic3V5b2dmYXJrZUBnbWFpbC5jb20iLCJuYW1lIjoiU3V5b2cgRmFya2UiLCJpYXQiOjE3OTIzMzI0MzgsImV4cCI6MTc5MjkzNzIzOH0._cw7uMWl-t3eHp3DppRipzXMWQc_o8lXVEbKqfvo2CQ"
+    },
+    {
+      "id": "usr_1792332630747_mjr79",
+      "email": "usr_1792332630747_mjr79@wealthwise.io",
+      "name": "Sambhaji Jadhav",
+      "phone": "+91 98230 12345",
+      "dateOfBirth": "1992-06-15",
+      "preferences": {
+        "currency": "INR",
+        "theme": "luxury",
+        "riskTolerance": "growth",
+        "monthlySavingsTargetPercent": 25,
+        "monthlyIncome": 120000,
+        "notificationAlerts": true
+      },
+      "isNewUser": false,
+      "createdAt": "2026-10-18T14:10:35.684Z",
+      "lastLoginAt": "2026-10-18T14:10:35.684Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-cb-1",
+      "name": "Fine Dining & Hospitality",
+      "type": "want",
+      "allocatedAmount": 30000,
+      "spentAmount": 8500,
+      "color": "#E0A899",
+      "icon": "Utensils",
+      "isLocked": false,
+      "userId": "browser_test_1792332175556@wealthwise.io"
+    },
+    {
+      "id": "cat-cb-2",
+      "name": "Equities & SIP Portfolio",
+      "type": "savings",
+      "allocatedAmount": 50000,
+      "spentAmount": 50000,
+      "color": "#3A6046",
+      "icon": "TrendingUp",
+      "isLocked": true,
+      "userId": "browser_test_1792332175556@wealthwise.io"
+    },
+    {
+      "id": "cat-cb-1",
+      "name": "Fine Dining & Hospitality",
+      "type": "want",
+      "allocatedAmount": 30000,
+      "spentAmount": 8500,
+      "color": "#E0A899",
+      "icon": "Utensils",
+      "isLocked": false,
+      "userId": "browser_test_1792332230783@wealthwise.io"
+    },
+    {
+      "id": "cat-cb-2",
+      "name": "Equities & SIP Portfolio",
+      "type": "savings",
+      "allocatedAmount": 50000,
+      "spentAmount": 50000,
+      "color": "#3A6046",
+      "icon": "TrendingUp",
+      "isLocked": true,
+      "userId": "browser_test_1792332230783@wealthwise.io"
+    },
+    {
+      "id": "cat-1792332250916-1",
+      "name": "Rent & Housing",
+      "type": "need",
+      "allocatedAmount": 28000,
+      "spentAmount": 0,
+      "color": "#C5A15B",
+      "icon": "Home",
+      "isLocked": true,
+      "userId": "usr_1792332250916"
+    },
+    {
+      "id": "cat-1792332250916-2",
+      "name": "Bills & Utilities",
+      "type": "need",
+      "allocatedAmount": 7000,
+      "spentAmount": 0,
+      "color": "#6A7F94",
+      "icon": "Zap",
+      "userId": "usr_1792332250916"
+    },
+    {
+      "id": "cat-1792332250916-3",
+      "name": "Groceries & Food",
+      "type": "need",
+      "allocatedAmount": 14000,
+      "spentAmount": 0,
+      "color": "#4E775B",
+      "icon": "ShoppingBag",
+      "userId": "usr_1792332250916"
+    },
+    {
+      "id": "cat-1792332250916-4",
+      "name": "Travel & Commute",
+      "type": "need",
+      "allocatedAmount": 6500,
+      "spentAmount": 0,
+      "color": "#88929A",
+      "icon": "Car",
+      "userId": "usr_1792332250916"
+    },
+    {
+      "id": "cat-1792332250916-5",
+      "name": "Shopping & Leisure",
+      "type": "want",
+      "allocatedAmount": 7000,
+      "spentAmount": 0,
+      "color": "#BA5A5A",
+      "icon": "Tag",
+      "userId": "usr_1792332250916"
+    },
+    {
+      "id": "cat-1792332250916-6",
+      "name": "Subscriptions & Entertainment",
+      "type": "want",
+      "allocatedAmount": 3500,
+      "spentAmount": 0,
+      "color": "#A080C0",
+      "icon": "Film",
+      "userId": "usr_1792332250916"
+    },
+    {
+      "id": "cat-1792332251153",
+      "name": "Artisan Coffee & Snacks",
+      "type": "want",
+      "allocatedAmount": 4500,
+      "spentAmount": 0,
+      "color": "#D99AA6",
+      "icon": "Coffee",
+      "isLocked": false,
+      "userId": "usr_1792332250916"
+    },
+    {
+      "id": "cat-rent",
+      "name": "Rent & Housing",
+      "type": "need",
+      "allocatedAmount": 20000,
+      "spentAmount": 20000,
+      "color": "#C5A15B",
+      "icon": "Home",
+      "isLocked": true,
+      "userId": "swayamkatkar@gmail.com"
+    },
+    {
+      "id": "cat-utilities",
+      "name": "Bills & Utilities",
+      "type": "need",
+      "allocatedAmount": 5000,
+      "spentAmount": 2500,
+      "color": "#6A7F94",
+      "icon": "Zap",
+      "isLocked": false,
+      "userId": "swayamkatkar@gmail.com"
+    },
+    {
+      "id": "cat-groceries",
+      "name": "Groceries & Food",
+      "type": "need",
+      "allocatedAmount": 20000,
+      "spentAmount": 8000,
+      "color": "#4E775B",
+      "icon": "ShoppingBag",
+      "isLocked": false,
+      "userId": "swayamkatkar@gmail.com"
+    },
+    {
+      "id": "cat-travel",
+      "name": "Travel & Commute",
+      "type": "need",
+      "allocatedAmount": 5000,
+      "spentAmount": 1750,
+      "color": "#88929A",
+      "icon": "Car",
+      "isLocked": false,
+      "userId": "swayamkatkar@gmail.com"
+    },
+    {
+      "id": "cat-shopping",
+      "name": "Shopping & Leisure",
+      "type": "want",
+      "allocatedAmount": 25000,
+      "spentAmount": 7500,
+      "color": "#D99AA6",
+      "icon": "Coffee",
+      "isLocked": false,
+      "userId": "swayamkatkar@gmail.com"
+    },
+    {
+      "id": "cat-subscriptions",
+      "name": "Subscriptions & Entertainment",
+      "type": "want",
+      "allocatedAmount": 1000,
+      "spentAmount": 1000,
+      "color": "#A080C0",
+      "icon": "Film",
+      "isLocked": false,
+      "userId": "swayamkatkar@gmail.com"
+    },
+    {
+      "id": "cat-savings",
+      "name": "Target Savings & Fund",
+      "type": "savings",
+      "allocatedAmount": 124000,
+      "spentAmount": 62000,
+      "color": "#3A6046",
+      "icon": "TrendingUp",
+      "isLocked": false,
+      "userId": "swayamkatkar@gmail.com"
+    },
+    {
+      "id": "cat-1792332438747-1",
+      "name": "Rent & Housing",
+      "type": "need",
+      "allocatedAmount": 20000,
+      "spentAmount": 0,
+      "color": "#C5A15B",
+      "icon": "Home",
+      "isLocked": true,
+      "userId": "usr_1792332438747"
+    },
+    {
+      "id": "cat-1792332438747-2",
+      "name": "Bills & Utilities",
+      "type": "need",
+      "allocatedAmount": 7000,
+      "spentAmount": 0,
+      "color": "#6A7F94",
+      "icon": "Zap",
+      "isLocked": false,
+      "userId": "usr_1792332438747"
+    },
+    {
+      "id": "cat-1792332438747-3",
+      "name": "Groceries & Food",
+      "type": "need",
+      "allocatedAmount": 14000,
+      "spentAmount": 0,
+      "color": "#4E775B",
+      "icon": "ShoppingBag",
+      "isLocked": false,
+      "userId": "usr_1792332438747"
+    },
+    {
+      "id": "cat-1792332438747-4",
+      "name": "Travel & Commute",
+      "type": "need",
+      "allocatedAmount": 6500,
+      "spentAmount": 0,
+      "color": "#88929A",
+      "icon": "Car",
+      "isLocked": false,
+      "userId": "usr_1792332438747"
+    },
+    {
+      "id": "cat-1792332438747-5",
+      "name": "Shopping & Leisure",
+      "type": "want",
+      "allocatedAmount": 7000,
+      "spentAmount": 0,
+      "color": "#BA5A5A",
+      "icon": "Tag",
+      "isLocked": false,
+      "userId": "usr_1792332438747"
+    },
+    {
+      "id": "cat-1792332438747-6",
+      "name": "Subscriptions & Entertainment",
+      "type": "want",
+      "allocatedAmount": 3500,
+      "spentAmount": 0,
+      "color": "#A080C0",
+      "icon": "Film",
+      "isLocked": false,
+      "userId": "usr_1792332438747"
+    },
+    {
+      "id": "cat-1",
+      "name": "Housing & Rent",
+      "type": "need",
+      "allocatedAmount": 28000,
+      "spentAmount": 28000,
+      "color": "#C5A15B",
+      "icon": "Home",
+      "isLocked": true,
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "cat-2",
+      "name": "Groceries & Provisions",
+      "type": "need",
+      "allocatedAmount": 14000,
+      "spentAmount": 11250,
+      "color": "#4E775B",
+      "icon": "ShoppingBag",
+      "isLocked": false,
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "cat-3",
+      "name": "Utilities & Internet",
+      "type": "need",
+      "allocatedAmount": 5500,
+      "spentAmount": 4800,
+      "color": "#6A7F94",
+      "icon": "Zap",
+      "isLocked": false,
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "cat-4",
+      "name": "Healthcare & Insurance",
+      "type": "need",
+      "allocatedAmount": 4500,
+      "spentAmount": 2200,
+      "color": "#7E685A",
+      "icon": "HeartPulse",
+      "isLocked": false,
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "cat-5",
+      "name": "Dining Out & Cafes",
+      "type": "want",
+      "allocatedAmount": 9000,
+      "spentAmount": 8400,
+      "color": "#D99AA6",
+      "icon": "Coffee",
+      "isLocked": false,
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "cat-6",
+      "name": "Entertainment & OTT",
+      "type": "want",
+      "allocatedAmount": 3500,
+      "spentAmount": 3100,
+      "color": "#A080C0",
+      "icon": "Film",
+      "isLocked": false,
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "cat-7",
+      "name": "Personal Shopping",
+      "type": "want",
+      "allocatedAmount": 7000,
+      "spentAmount": 6200,
+      "color": "#BA5A5A",
+      "icon": "Tag",
+      "isLocked": false,
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "cat-8",
+      "name": "Vehicle & Commute",
+      "type": "need",
+      "allocatedAmount": 6500,
+      "spentAmount": 5800,
+      "color": "#88929A",
+      "icon": "Car",
+      "isLocked": false,
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "cat-9",
+      "name": "Mutual Fund SIP",
+      "type": "savings",
+      "allocatedAmount": 22000,
+      "spentAmount": 22000,
+      "color": "#3A6046",
+      "icon": "TrendingUp",
+      "isLocked": false,
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "cat-10",
+      "name": "Emergency Liquid Fund",
+      "type": "savings",
+      "allocatedAmount": 10000,
+      "spentAmount": 10000,
+      "color": "#B39148",
+      "icon": "ShieldCheck",
+      "isLocked": false,
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "cat-11",
+      "name": "Car Loan EMI",
+      "type": "debt",
+      "allocatedAmount": 10000,
+      "spentAmount": 10000,
+      "color": "#8F5353",
+      "icon": "CreditCard",
+      "isLocked": true,
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "cat-1",
+      "name": "Housing & Rent",
+      "type": "need",
+      "allocatedAmount": 28000,
+      "spentAmount": 28000,
+      "color": "#C5A15B",
+      "icon": "Home",
+      "isLocked": true,
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "cat-2",
+      "name": "Groceries & Provisions",
+      "type": "need",
+      "allocatedAmount": 14000,
+      "spentAmount": 11250,
+      "color": "#4E775B",
+      "icon": "ShoppingBag",
+      "isLocked": false,
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "cat-3",
+      "name": "Utilities & Internet",
+      "type": "need",
+      "allocatedAmount": 5500,
+      "spentAmount": 4800,
+      "color": "#6A7F94",
+      "icon": "Zap",
+      "isLocked": false,
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "cat-4",
+      "name": "Healthcare & Insurance",
+      "type": "need",
+      "allocatedAmount": 4500,
+      "spentAmount": 2200,
+      "color": "#7E685A",
+      "icon": "HeartPulse",
+      "isLocked": false,
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "cat-5",
+      "name": "Dining Out & Cafes",
+      "type": "want",
+      "allocatedAmount": 9000,
+      "spentAmount": 8400,
+      "color": "#D99AA6",
+      "icon": "Coffee",
+      "isLocked": false,
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "cat-6",
+      "name": "Entertainment & OTT",
+      "type": "want",
+      "allocatedAmount": 3500,
+      "spentAmount": 3100,
+      "color": "#A080C0",
+      "icon": "Film",
+      "isLocked": false,
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "cat-7",
+      "name": "Personal Shopping",
+      "type": "want",
+      "allocatedAmount": 7000,
+      "spentAmount": 6200,
+      "color": "#BA5A5A",
+      "icon": "Tag",
+      "isLocked": false,
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "cat-8",
+      "name": "Vehicle & Commute",
+      "type": "need",
+      "allocatedAmount": 6500,
+      "spentAmount": 5800,
+      "color": "#88929A",
+      "icon": "Car",
+      "isLocked": false,
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "cat-9",
+      "name": "Mutual Fund SIP",
+      "type": "savings",
+      "allocatedAmount": 22000,
+      "spentAmount": 22000,
+      "color": "#3A6046",
+      "icon": "TrendingUp",
+      "isLocked": false,
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "cat-10",
+      "name": "Emergency Liquid Fund",
+      "type": "savings",
+      "allocatedAmount": 10000,
+      "spentAmount": 10000,
+      "color": "#B39148",
+      "icon": "ShieldCheck",
+      "isLocked": false,
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "cat-11",
+      "name": "Car Loan EMI",
+      "type": "debt",
+      "allocatedAmount": 10000,
+      "spentAmount": 10000,
+      "color": "#8F5353",
+      "icon": "CreditCard",
+      "isLocked": true,
+      "userId": "usr_1792332630747_mjr79"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-cb-101",
+      "title": "Nifty 50 Index Fund SIP",
+      "amount": 50000,
+      "type": "expense",
+      "category": "Equities & SIP Portfolio",
+      "categoryType": "want",
+      "date": "2026-10-18",
+      "paymentMethod": "NetBanking",
+      "isRecurring": false,
+      "tags": [],
+      "createdAt": "2026-10-18T14:02:55.702Z",
+      "userId": "browser_test_1792332175556@wealthwise.io"
+    },
+    {
+      "id": "tx-cb-101",
+      "title": "Nifty 50 Index Fund SIP",
+      "amount": 50000,
+      "type": "expense",
+      "category": "Equities & SIP Portfolio",
+      "categoryType": "want",
+      "date": "2026-10-18",
+      "paymentMethod": "NetBanking",
+      "isRecurring": false,
+      "tags": [],
+      "createdAt": "2026-10-18T14:03:50.882Z",
+      "userId": "browser_test_1792332230783@wealthwise.io"
+    },
+    {
+      "id": "tx-1792332384432-fexy",
+      "title": "bills",
+      "amount": 1500,
+      "type": "expense",
+      "category": "Bills & Utilities",
+      "categoryType": "need",
+      "date": "2026-10-18",
+      "paymentMethod": "UPI",
+      "isRecurring": false,
+      "notes": "bills",
+      "tags": [
+        "expense",
+        "bills"
+      ],
+      "createdAt": "2026-10-18T14:06:24.432Z",
+      "userId": "swayamkatkar@gmail.com"
+    },
+    {
+      "id": "tx-1792331807376-8hvp",
+      "title": "New Smartphone ",
+      "amount": 25000,
+      "type": "expense",
+      "category": "Target Savings & Fund",
+      "categoryType": "savings",
+      "date": "2026-10-18",
+      "paymentMethod": "UPI / Bank Transfer",
+      "isRecurring": false,
+      "notes": "Applied from Decision Simulator move",
+      "tags": [
+        "expense",
+        "target"
+      ],
+      "createdAt": "2026-10-18T13:56:47.376Z",
+      "userId": "swayamkatkar@gmail.com"
+    },
+    {
+      "id": "tx-1792331486112-3hxb",
+      "title": "Shopping",
+      "amount": 45000,
+      "type": "expense",
+      "category": "Shopping & Leisure",
+      "categoryType": "want",
+      "date": "2026-10-18",
+      "paymentMethod": "UPI",
+      "isRecurring": false,
+      "notes": "Shopping",
+      "tags": [
+        "expense",
+        "shopping"
+      ],
+      "createdAt": "2026-10-18T13:51:26.112Z",
+      "userId": "swayamkatkar@gmail.com"
+    },
+    {
+      "id": "tx-1792332384441",
+      "title": "bills",
+      "amount": 1500,
+      "type": "expense",
+      "category": "Bills & Utilities",
+      "categoryType": "need",
+      "date": "2026-10-18",
+      "paymentMethod": "UPI",
+      "isRecurring": false,
+      "notes": "bills",
+      "tags": [
+        "expense",
+        "bills"
+      ],
+      "createdAt": "2026-10-18T14:06:24.441Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-1792331807382",
+      "title": "New Smartphone ",
+      "amount": 25000,
+      "type": "expense",
+      "category": "Target Savings & Fund",
+      "categoryType": "savings",
+      "date": "2026-10-18",
+      "paymentMethod": "UPI / Bank Transfer",
+      "isRecurring": false,
+      "notes": "Applied from Decision Simulator move",
+      "tags": [
+        "expense",
+        "target"
+      ],
+      "createdAt": "2026-10-18T13:56:47.382Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-1792331486119",
+      "title": "Shopping",
+      "amount": 45000,
+      "type": "expense",
+      "category": "Shopping & Leisure",
+      "categoryType": "want",
+      "date": "2026-10-18",
+      "paymentMethod": "UPI",
+      "isRecurring": false,
+      "notes": "Shopping",
+      "tags": [
+        "expense",
+        "shopping"
+      ],
+      "createdAt": "2026-10-18T13:51:26.119Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-1",
+      "title": "Monthly Salary Credit",
+      "amount": 120000,
+      "type": "income",
+      "category": "Salary",
+      "categoryType": "savings",
+      "date": "2026-10-01",
+      "paymentMethod": "Bank Transfer (NEFT)",
+      "isRecurring": true,
+      "notes": "Direct employer payroll deposit",
+      "tags": [
+        "payroll",
+        "primary-income"
+      ],
+      "createdAt": "2026-10-18T13:45:35.843Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-2",
+      "title": "Apartment Rent",
+      "amount": 28000,
+      "type": "expense",
+      "category": "Housing & Rent",
+      "categoryType": "need",
+      "date": "2026-10-02",
+      "paymentMethod": "UPI (HDFC Bank)",
+      "isRecurring": true,
+      "notes": "October monthly rental transfer to landlord",
+      "tags": [
+        "essential",
+        "rent"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-3",
+      "title": "Nifty 50 Index Fund SIP",
+      "amount": 15000,
+      "type": "expense",
+      "category": "Mutual Fund SIP",
+      "categoryType": "savings",
+      "date": "2026-10-05",
+      "paymentMethod": "Auto Debit (NACH)",
+      "isRecurring": true,
+      "notes": "Long-term equity wealth compounding",
+      "tags": [
+        "investment",
+        "wealth"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-4",
+      "title": "Flexicap Equity SIP",
+      "amount": 7000,
+      "type": "expense",
+      "category": "Mutual Fund SIP",
+      "categoryType": "savings",
+      "date": "2026-10-05",
+      "paymentMethod": "Auto Debit (NACH)",
+      "isRecurring": true,
+      "notes": "Parag Parikh Flexi Cap Fund",
+      "tags": [
+        "investment",
+        "wealth"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-5",
+      "title": "Emergency Fund Recurring Deposit",
+      "amount": 10000,
+      "type": "expense",
+      "category": "Emergency Liquid Fund",
+      "categoryType": "savings",
+      "date": "2026-10-05",
+      "paymentMethod": "Auto Debit",
+      "isRecurring": true,
+      "notes": "High-yield liquid instrument buffer",
+      "tags": [
+        "emergency-fund",
+        "savings"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-6",
+      "title": "Nature Basket Gourmet Groceries",
+      "amount": 4320,
+      "type": "expense",
+      "category": "Groceries & Provisions",
+      "categoryType": "need",
+      "date": "2026-10-07",
+      "paymentMethod": "Credit Card",
+      "isRecurring": false,
+      "notes": "Weekly pantry restocking and fresh produce",
+      "tags": [
+        "groceries",
+        "household"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-7",
+      "title": "Car Loan EMI",
+      "amount": 10000,
+      "type": "expense",
+      "category": "Car Loan EMI",
+      "categoryType": "debt",
+      "date": "2026-10-10",
+      "paymentMethod": "Auto Debit",
+      "isRecurring": true,
+      "notes": "Fixed auto loan amortization payment",
+      "tags": [
+        "debt",
+        "emi"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-8",
+      "title": "High-Speed Fiber Broadband",
+      "amount": 1499,
+      "type": "expense",
+      "category": "Utilities & Internet",
+      "categoryType": "need",
+      "date": "2026-10-11",
+      "paymentMethod": "UPI",
+      "isRecurring": true,
+      "notes": "Airtel Xstream 300 Mbps unlimited plan",
+      "tags": [
+        "utility",
+        "work-from-home"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-9",
+      "title": "Artisanal Cafe & Weekend Brunch",
+      "amount": 2450,
+      "type": "expense",
+      "category": "Dining Out & Cafes",
+      "categoryType": "want",
+      "date": "2026-10-12",
+      "paymentMethod": "Credit Card",
+      "isRecurring": false,
+      "notes": "Sunday brunch with friends",
+      "tags": [
+        "dining",
+        "lifestyle"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-10",
+      "title": "Boutique Apparel Purchase",
+      "amount": 3850,
+      "type": "expense",
+      "category": "Personal Shopping",
+      "categoryType": "want",
+      "date": "2026-10-14",
+      "paymentMethod": "UPI",
+      "isRecurring": false,
+      "notes": "Festive season cotton linen shirts",
+      "tags": [
+        "apparel",
+        "shopping"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "tx-1792332384441",
+      "title": "bills",
+      "amount": 1500,
+      "type": "expense",
+      "category": "Bills & Utilities",
+      "categoryType": "need",
+      "date": "2026-10-18",
+      "paymentMethod": "UPI",
+      "isRecurring": false,
+      "notes": "bills",
+      "tags": [
+        "expense",
+        "bills"
+      ],
+      "createdAt": "2026-10-18T14:06:24.441Z",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "tx-1792331807382",
+      "title": "New Smartphone ",
+      "amount": 25000,
+      "type": "expense",
+      "category": "Target Savings & Fund",
+      "categoryType": "savings",
+      "date": "2026-10-18",
+      "paymentMethod": "UPI / Bank Transfer",
+      "isRecurring": false,
+      "notes": "Applied from Decision Simulator move",
+      "tags": [
+        "expense",
+        "target"
+      ],
+      "createdAt": "2026-10-18T13:56:47.382Z",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "tx-1792331486119",
+      "title": "Shopping",
+      "amount": 45000,
+      "type": "expense",
+      "category": "Shopping & Leisure",
+      "categoryType": "want",
+      "date": "2026-10-18",
+      "paymentMethod": "UPI",
+      "isRecurring": false,
+      "notes": "Shopping",
+      "tags": [
+        "expense",
+        "shopping"
+      ],
+      "createdAt": "2026-10-18T13:51:26.119Z",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "tx-1",
+      "title": "Monthly Salary Credit",
+      "amount": 120000,
+      "type": "income",
+      "category": "Salary",
+      "categoryType": "savings",
+      "date": "2026-10-01",
+      "paymentMethod": "Bank Transfer (NEFT)",
+      "isRecurring": true,
+      "notes": "Direct employer payroll deposit",
+      "tags": [
+        "payroll",
+        "primary-income"
+      ],
+      "createdAt": "2026-10-18T13:45:35.843Z",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "tx-2",
+      "title": "Apartment Rent",
+      "amount": 28000,
+      "type": "expense",
+      "category": "Housing & Rent",
+      "categoryType": "need",
+      "date": "2026-10-02",
+      "paymentMethod": "UPI (HDFC Bank)",
+      "isRecurring": true,
+      "notes": "October monthly rental transfer to landlord",
+      "tags": [
+        "essential",
+        "rent"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "tx-3",
+      "title": "Nifty 50 Index Fund SIP",
+      "amount": 15000,
+      "type": "expense",
+      "category": "Mutual Fund SIP",
+      "categoryType": "savings",
+      "date": "2026-10-05",
+      "paymentMethod": "Auto Debit (NACH)",
+      "isRecurring": true,
+      "notes": "Long-term equity wealth compounding",
+      "tags": [
+        "investment",
+        "wealth"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "tx-4",
+      "title": "Flexicap Equity SIP",
+      "amount": 7000,
+      "type": "expense",
+      "category": "Mutual Fund SIP",
+      "categoryType": "savings",
+      "date": "2026-10-05",
+      "paymentMethod": "Auto Debit (NACH)",
+      "isRecurring": true,
+      "notes": "Parag Parikh Flexi Cap Fund",
+      "tags": [
+        "investment",
+        "wealth"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "tx-5",
+      "title": "Emergency Fund Recurring Deposit",
+      "amount": 10000,
+      "type": "expense",
+      "category": "Emergency Liquid Fund",
+      "categoryType": "savings",
+      "date": "2026-10-05",
+      "paymentMethod": "Auto Debit",
+      "isRecurring": true,
+      "notes": "High-yield liquid instrument buffer",
+      "tags": [
+        "emergency-fund",
+        "savings"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "tx-6",
+      "title": "Nature Basket Gourmet Groceries",
+      "amount": 4320,
+      "type": "expense",
+      "category": "Groceries & Provisions",
+      "categoryType": "need",
+      "date": "2026-10-07",
+      "paymentMethod": "Credit Card",
+      "isRecurring": false,
+      "notes": "Weekly pantry restocking and fresh produce",
+      "tags": [
+        "groceries",
+        "household"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "tx-7",
+      "title": "Car Loan EMI",
+      "amount": 10000,
+      "type": "expense",
+      "category": "Car Loan EMI",
+      "categoryType": "debt",
+      "date": "2026-10-10",
+      "paymentMethod": "Auto Debit",
+      "isRecurring": true,
+      "notes": "Fixed auto loan amortization payment",
+      "tags": [
+        "debt",
+        "emi"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "tx-8",
+      "title": "High-Speed Fiber Broadband",
+      "amount": 1499,
+      "type": "expense",
+      "category": "Utilities & Internet",
+      "categoryType": "need",
+      "date": "2026-10-11",
+      "paymentMethod": "UPI",
+      "isRecurring": true,
+      "notes": "Airtel Xstream 300 Mbps unlimited plan",
+      "tags": [
+        "utility",
+        "work-from-home"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "tx-9",
+      "title": "Artisanal Cafe & Weekend Brunch",
+      "amount": 2450,
+      "type": "expense",
+      "category": "Dining Out & Cafes",
+      "categoryType": "want",
+      "date": "2026-10-12",
+      "paymentMethod": "Credit Card",
+      "isRecurring": false,
+      "notes": "Sunday brunch with friends",
+      "tags": [
+        "dining",
+        "lifestyle"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "tx-10",
+      "title": "Boutique Apparel Purchase",
+      "amount": 3850,
+      "type": "expense",
+      "category": "Personal Shopping",
+      "categoryType": "want",
+      "date": "2026-10-14",
+      "paymentMethod": "UPI",
+      "isRecurring": false,
+      "notes": "Festive season cotton linen shirts",
+      "tags": [
+        "apparel",
+        "shopping"
+      ],
+      "createdAt": "2026-10-18T13:45:35.845Z",
+      "userId": "usr_1792332630747_mjr79"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal-cb-1",
+      "title": "Penthouse Down Payment",
+      "targetAmount": 5000000,
+      "currentAmount": 1200000,
+      "targetDate": "2028-12-31",
+      "category": "Real Estate",
+      "monthlyContributionRequired": 150000,
+      "color": "#3A6046",
+      "isCompleted": false,
+      "priority": "medium",
+      "userId": "browser_test_1792332175556@wealthwise.io"
+    },
+    {
+      "id": "goal-cb-1",
+      "title": "Penthouse Down Payment",
+      "targetAmount": 5000000,
+      "currentAmount": 1200000,
+      "targetDate": "2028-12-31",
+      "category": "Real Estate",
+      "monthlyContributionRequired": 150000,
+      "color": "#3A6046",
+      "isCompleted": false,
+      "priority": "medium",
+      "userId": "browser_test_1792332230783@wealthwise.io"
+    },
+    {
+      "id": "goal-1792332251202",
+      "title": "Emergency Rainy Day Fund",
+      "targetAmount": 150000,
+      "currentAmount": 30000,
+      "targetDate": "2027-06-30",
+      "category": "Safety Net",
+      "monthlyContributionRequired": 12500,
+      "color": "#3A6046",
+      "isCompleted": false,
+      "priority": "medium",
+      "userId": "usr_1792332250916"
+    },
+    {
+      "id": "goal-1",
+      "title": "Emergency Safety Cushion (6 Months)",
+      "targetAmount": 350000,
+      "currentAmount": 260000,
+      "targetDate": "2027-03-31",
+      "category": "Emergency",
+      "monthlyContributionRequired": 18000,
+      "color": "#C5A15B",
+      "isCompleted": false,
+      "priority": "high",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "goal-2",
+      "title": "Kyoto & Tokyo Autumn Vacation",
+      "targetAmount": 220000,
+      "currentAmount": 145000,
+      "targetDate": "2027-09-15",
+      "category": "Travel",
+      "monthlyContributionRequired": 6818,
+      "color": "#D99AA6",
+      "isCompleted": false,
+      "priority": "medium",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "goal-3",
+      "title": "Down Payment for Home Upgrade",
+      "targetAmount": 1200000,
+      "currentAmount": 480000,
+      "targetDate": "2028-12-31",
+      "category": "Real Estate",
+      "monthlyContributionRequired": 27692,
+      "color": "#4E775B",
+      "isCompleted": false,
+      "priority": "high",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "goal-1",
+      "title": "Emergency Safety Cushion (6 Months)",
+      "targetAmount": 350000,
+      "currentAmount": 260000,
+      "targetDate": "2027-03-31",
+      "category": "Emergency",
+      "monthlyContributionRequired": 18000,
+      "color": "#C5A15B",
+      "isCompleted": false,
+      "priority": "high",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "goal-2",
+      "title": "Kyoto & Tokyo Autumn Vacation",
+      "targetAmount": 220000,
+      "currentAmount": 145000,
+      "targetDate": "2027-09-15",
+      "category": "Travel",
+      "monthlyContributionRequired": 6818,
+      "color": "#D99AA6",
+      "isCompleted": false,
+      "priority": "medium",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "goal-3",
+      "title": "Down Payment for Home Upgrade",
+      "targetAmount": 1200000,
+      "currentAmount": 480000,
+      "targetDate": "2028-12-31",
+      "category": "Real Estate",
+      "monthlyContributionRequired": 27692,
+      "color": "#4E775B",
+      "isCompleted": false,
+      "priority": "high",
+      "userId": "usr_1792332630747_mjr79"
+    }
+  ],
+  "bills": [
+    {
+      "id": "bill-cb-1",
+      "name": "Private Club Membership",
+      "amount": 15000,
+      "billingCycle": "monthly",
+      "dueDate": "2026-11-01",
+      "category": "Bills & Utilities",
+      "paymentMethod": "Auto Debit",
+      "isAutoDebit": false,
+      "status": "upcoming",
+      "userId": "browser_test_1792332175556@wealthwise.io"
+    },
+    {
+      "id": "bill-cb-1",
+      "name": "Private Club Membership",
+      "amount": 15000,
+      "billingCycle": "monthly",
+      "dueDate": "2026-11-01",
+      "category": "Bills & Utilities",
+      "paymentMethod": "Auto Debit",
+      "isAutoDebit": false,
+      "status": "upcoming",
+      "userId": "browser_test_1792332230783@wealthwise.io"
+    },
+    {
+      "id": "bill-1792332251196",
+      "name": "Airtel Broadband Fiber",
+      "amount": 1199,
+      "billingCycle": "monthly",
+      "dueDate": "2026-10-28",
+      "category": "Bills & Utilities",
+      "paymentMethod": "Auto Debit",
+      "isAutoDebit": true,
+      "status": "paid",
+      "lastPaidDate": "2026-10-18",
+      "userId": "usr_1792332250916"
+    },
+    {
+      "id": "bill-1",
+      "name": "Apartment Maintenance Fee",
+      "amount": 3800,
+      "billingCycle": "monthly",
+      "dueDate": "2026-10-20",
+      "category": "Housing",
+      "paymentMethod": "UPI",
+      "isAutoDebit": false,
+      "status": "upcoming",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "bill-2",
+      "name": "Electricity Board (BESCOM)",
+      "amount": 2350,
+      "billingCycle": "monthly",
+      "dueDate": "2026-10-24",
+      "category": "Utilities",
+      "paymentMethod": "Net Banking",
+      "isAutoDebit": false,
+      "status": "upcoming",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "bill-3",
+      "name": "Netflix Premium 4K Family",
+      "amount": 649,
+      "billingCycle": "monthly",
+      "dueDate": "2026-10-28",
+      "category": "Entertainment",
+      "paymentMethod": "Credit Card Auto-pay",
+      "isAutoDebit": true,
+      "status": "upcoming",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "bill-4",
+      "name": "Spotify Premium Family",
+      "amount": 199,
+      "billingCycle": "monthly",
+      "dueDate": "2026-10-29",
+      "category": "Entertainment",
+      "paymentMethod": "Credit Card Auto-pay",
+      "isAutoDebit": true,
+      "status": "upcoming",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "bill-5",
+      "name": "Health Insurance Annual Top-Up",
+      "amount": 14500,
+      "billingCycle": "yearly",
+      "dueDate": "2026-11-15",
+      "category": "Healthcare",
+      "paymentMethod": "Credit Card",
+      "isAutoDebit": false,
+      "status": "upcoming",
+      "userId": "usr_sambhaji_jadhav"
+    },
+    {
+      "id": "bill-1",
+      "name": "Apartment Maintenance Fee",
+      "amount": 3800,
+      "billingCycle": "monthly",
+      "dueDate": "2026-10-20",
+      "category": "Housing",
+      "paymentMethod": "UPI",
+      "isAutoDebit": false,
+      "status": "upcoming",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "bill-2",
+      "name": "Electricity Board (BESCOM)",
+      "amount": 2350,
+      "billingCycle": "monthly",
+      "dueDate": "2026-10-24",
+      "category": "Utilities",
+      "paymentMethod": "Net Banking",
+      "isAutoDebit": false,
+      "status": "upcoming",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "bill-3",
+      "name": "Netflix Premium 4K Family",
+      "amount": 649,
+      "billingCycle": "monthly",
+      "dueDate": "2026-10-28",
+      "category": "Entertainment",
+      "paymentMethod": "Credit Card Auto-pay",
+      "isAutoDebit": true,
+      "status": "upcoming",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "bill-4",
+      "name": "Spotify Premium Family",
+      "amount": 199,
+      "billingCycle": "monthly",
+      "dueDate": "2026-10-29",
+      "category": "Entertainment",
+      "paymentMethod": "Credit Card Auto-pay",
+      "isAutoDebit": true,
+      "status": "upcoming",
+      "userId": "usr_1792332630747_mjr79"
+    },
+    {
+      "id": "bill-5",
+      "name": "Health Insurance Annual Top-Up",
+      "amount": 14500,
+      "billingCycle": "yearly",
+      "dueDate": "2026-11-15",
+      "category": "Healthcare",
+      "paymentMethod": "Credit Card",
+      "isAutoDebit": false,
+      "status": "upcoming",
+      "userId": "usr_1792332630747_mjr79"
+    }
+  ]
+}

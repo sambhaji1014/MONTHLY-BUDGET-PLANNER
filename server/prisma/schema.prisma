@@ -1,0 +1,152 @@
+// WealthWise Prisma Schema
+// Database: PostgreSQL
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum CategoryType {
+  need
+  want
+  savings
+  debt
+}
+
+enum TransactionType {
+  income
+  expense
+}
+
+enum BillingCycle {
+  monthly
+  quarterly
+  yearly
+}
+
+enum BillStatus {
+  upcoming
+  paid
+  overdue
+}
+
+enum GoalPriority {
+  low
+  medium
+  high
+}
+
+model User {
+  id              String             @id @default(uuid())
+  email           String             @unique
+  name            String
+  passwordHash    String?
+  phone           String?
+  dateOfBirth     String?            // YYYY-MM-DD
+  preferences     Json?              // { currency: 'INR', theme: 'luxury', monthlySavingsTargetPercent: 25, ... }
+  isNewUser       Boolean            @default(true)
+  isGuest         Boolean            @default(false)
+  refreshToken    String?
+  monthlyIncome   Float              @default(120000)
+  createdAt       DateTime           @default(now())
+  updatedAt       DateTime           @updatedAt
+  lastLoginAt     DateTime?
+
+  categories      Category[]
+  transactions    Transaction[]
+  bills           BillSubscription[]
+  goals           SavingsGoal[]
+
+  @@map("users")
+}
+
+model Category {
+  id              String        @id @default(uuid())
+  userId          String
+  name            String
+  type            CategoryType  @default(want)
+  allocatedAmount Float         @default(0)
+  spentAmount     Float         @default(0)
+  color           String        @default("#C5A15B")
+  icon            String        @default("Tag")
+  isLocked        Boolean       @default(false)
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  user            User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  transactions    Transaction[]
+
+  @@index([userId])
+  @@map("categories")
+}
+
+model Transaction {
+  id            String          @id @default(uuid())
+  userId        String
+  categoryId    String?
+  title         String
+  amount        Float
+  type          TransactionType @default(expense)
+  category      String
+  categoryType  CategoryType    @default(want)
+  date          String          // YYYY-MM-DD
+  paymentMethod String          @default("UPI")
+  isRecurring   Boolean         @default(false)
+  notes         String?
+  tags          String[]        @default([])
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+
+  user          User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  categoryRel   Category?       @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([userId, date])
+  @@map("transactions")
+}
+
+model BillSubscription {
+  id            String       @id @default(uuid())
+  userId        String
+  name          String
+  amount        Float
+  billingCycle  BillingCycle @default(monthly)
+  dueDate       String       // YYYY-MM-DD or day of month
+  category      String
+  paymentMethod String       @default("Auto Debit")
+  isAutoDebit   Boolean      @default(true)
+  status        BillStatus   @default(upcoming)
+  lastPaidDate  String?
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  user          User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("bills_subscriptions")
+}
+
+model SavingsGoal {
+  id                          String       @id @default(uuid())
+  userId                      String
+  title                       String
+  targetAmount                Float
+  currentAmount               Float        @default(0)
+  targetDate                  String       // YYYY-MM-DD
+  category                    String       @default("General Savings")
+  monthlyContributionRequired Float        @default(0)
+  color                       String       @default("#3A6046")
+  isCompleted                 Boolean      @default(false)
+  priority                    GoalPriority @default(medium)
+  createdAt                   DateTime     @default(now())
+  updatedAt                   DateTime     @updatedAt
+
+  user                        User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("savings_goals")
+}

@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-pearl-ivory: #FAF7F0;
+  --color-warm-cream: #F2EADF;
+  --color-champagne-gold: #C5A15B;
+  --color-pale-gold: #E8D5A8;
+  --color-brushed-silver: #C7CBD1;
+  --color-soft-silver: #ECEDEF;
+  --color-blush-pink: #F5DDE3;
+  --color-dusty-rose: #D99AA6;
+  --color-lavender-mist: #E9E1F5;
+  --color-espresso-charcoal: #302C2B;
+  --color-muted-sage: #4E775B;
+  --color-soft-red: #BA5A5A;
+}
+
+@layer base {
+  * {
+    border-color: #E6E2D8;
+  }
+  
+  body {
+    background-color: #FAF7F0;
+    color: #302C2B;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    overflow-x: hidden;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FAF7F0;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D8D2C4;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C5A15B;
+  }
+}
+
+/* Luxury Journal & Card Accents */
+@layer components {
+  .luxury-card {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(199, 203, 209, 0.45);
+    border-radius: 1.25rem;
+    box-shadow: 0 4px 20px -2px rgba(48, 44, 43, 0.04), 0 2px 6px -1px rgba(48, 44, 43, 0.02);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  
+  .luxury-card-interactive:hover {
+    transform: translateY(-2px);
+    border-color: rgba(197, 161, 91, 0.4);
+    box-shadow: 0 8px 30px -4px rgba(48, 44, 43, 0.08);
+  }
+
+  .pearl-surface {
+    background: linear-gradient(135deg, #FAF7F0 0%, #FFFFFF 100%);
+    border: 1px solid rgba(199, 203, 209, 0.35);
+  }
+
+  .gold-gradient-border {
+    border-image: linear-gradient(to right, #E8D5A8, #C5A15B, #E8D5A8) 1;
+  }
+
+  .sticky-note-pink {
+    background: linear-gradient(135deg, #FBF4F6 0%, #F5DDE3 100%);
+    border: 1px solid rgba(217, 154, 166, 0.4);
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px -5px rgba(217, 154, 166, 0.25), 0 4px 10px -2px rgba(217, 154, 166, 0.12);
+  }
+
+  .sticky-note-lavender {
+    background: linear-gradient(135deg, #FAF7FD 0%, #E9E1F5 100%);
+    border: 1px solid rgba(192, 168, 224, 0.4);
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px -5px rgba(160, 128, 192, 0.18);
+  }
+
+  .sticky-note-gold {
+    background: linear-gradient(135deg, #FDFCF8 0%, #F5EDD8 100%);
+    border: 1px solid rgba(197, 161, 91, 0.35);
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px -5px rgba(197, 161, 91, 0.16);
+  }
+
+  .badge-blush-luxury {
+    background: linear-gradient(135deg, #FDF7F9 0%, #F5DDE3 100%);
+    border: 1px solid rgba(217, 154, 166, 0.5);
+    color: #9B3B52; /* WCAG AA accessible (> 5.5:1 ratio) */
+    font-weight: 600;
+  }
+
+  .btn-blush-luxury {
+    background: linear-gradient(135deg, #FDF7F9 0%, #F5DDE3 100%);
+    border: 1px solid rgba(217, 154, 166, 0.5);
+    color: #302C2B;
+    box-shadow: 0 2px 8px -1px rgba(217, 154, 166, 0.2);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .btn-blush-luxury:hover {
+    background: linear-gradient(135deg, #F9E7EC 0%, #ECC6CE 100%);
+    border-color: rgba(217, 154, 166, 0.8);
+    box-shadow: 0 4px 14px -2px rgba(217, 154, 166, 0.32);
+    transform: translateY(-1px);
+  }
+
+  .btn-rose-solid {
+    background: linear-gradient(135deg, #C46D7E 0%, #9B3B52 100%);
+    color: #FFFFFF;
+    box-shadow: 0 4px 14px -2px rgba(155, 59, 82, 0.3);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .btn-rose-solid:hover {
+    background: linear-gradient(135deg, #B55E6F 0%, #873145 100%);
+    box-shadow: 0 6px 20px -3px rgba(155, 59, 82, 0.45);
+    transform: translateY(-1px);
+  }
+}
+
